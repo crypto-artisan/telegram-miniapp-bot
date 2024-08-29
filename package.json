@@ -1,0 +1,21 @@
+{
+  "name": "bleggs-miniapp-bot",
+  "version": "1.0.0",
+  "description": "This is a simple telegram bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "HighTech",
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.1.3"
+  }
+}
